@@ -1,0 +1,179 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffe8c8;
+  margin: 0;
+  border-left: 30px solid #764400;
+  border-right: 30px solid #764400;
+  /* min-height: 100vh; */
+}
+
+.background-container{
+width: 1000px;
+margin: 0;
+max-width: 100%;
+/* max-height: 100%; */
+}
+
+.firstlogo{
+  margin-top: 20px;
+  margin-left: 250px;
+  width: 60%;
+
+}
+.logo{
+  font-size: 3rem;
+  color: black;
+  width: 20%;
+
+
+}
+
+.title{
+  display: flex;
+  margin-left: 250px;
+  flex-wrap: wrap;
+  align-items: center;
+  /* margin-left: 120px;
+  margin-bottom: 0px;*/
+  width: 80%;
+  /* height: 100px; */
+  /*justify-content: space-around; */
+}
+.spaceletter{
+  letter-spacing: 10px;
+  /* width: 400px; */
+  font-size: 3rem;
+  /* width: 700px; */
+  /* height: 100px; */
+  /* margin-top: 20px */ */
+}
+.spac-1{
+
+}
+.first-button{
+  margin-top: 40px;
+  margin-left: 70px;
+
+  height: 50px;
+  padding: 10px 30px;
+  font-size: 1.5rem;
+  transform: skew(-20deg);
+  /* padding-top: 0;
+  padding-bottom: 0; */
+
+}
+.btn{
+  /* margin: 20px 400px 0 0; */
+}
+.container-1{
+  display: flex;
+  margin-left: 250px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.img-1{
+  height:350px;
+  width: 250px;
+  margin-right: 200px;
+
+  /* border:2px solid #fff; */
+  box-shadow: 15px 15px #a66000;
+}
+
+.title-1 h1{
+  width: 250px;
+  font-family: sans-serif;
+}
+
+.title-1 h3{
+  font-size: 1rem;
+  color: gray;
+  font-family: sans-serif;
+}
+
+.image-1{
+  margin-left:80px;
+}
+.container-2{
+  display: flex;
+  margin-left: 250px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.img-2{
+  height:300px;
+  width: 250px;
+  margin-top: -40px;
+  box-shadow: -10px -10px 5px #ccc;
+}
+.title-2{
+  margin-left:80px;
+}
+.btn-2{
+ width: 250px;
+  padding: 5px 5px;
+  margin-right: 250px;
+  /* height: 50px; */
+  font-size: 2.5rem;
+  margin-top: 45px;
+  transform: skew(-20deg);
+  text-align: center;
+}
+
+@media screen and (max-width:768px){
+.title h1{
+  color:center;
+}
+
+.background-container{
+margin: 0;
+max-width: 100%;
+/* height: 100vh: */
+
+}
+.firstlogo{
+  margin: 2px 80px;
+}
+
+.title{
+  margin: 2px 80px;
+  /* justify-content: center; */
+}
+
+.first-button{
+  margin-right: 100px;
+}
+.spaceletter{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container-1{
+  margin: 2px 80px;
+
+}
+.image-1{
+  /* margin-bottom: 100px; */
+  margin-left: 5px;
+  margin-bottom: 80px;
+  width: 100px;
+}
+
+.container-2{
+  margin: 2px 80px;
+}
+.image-2{
+
+  margin-left: 20px;
+
+}
+.title-2{
+  margin-left: 20px;
+  width: 20px;
+}
+}
